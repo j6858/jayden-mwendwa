@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zimmah Betting</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="navbar">
+      <nav>
+        <ul class="nav-list">
+          <li><button class="nav-btn" onclick="showSection('home')">Home</button></li>
+          <li><button class="nav-btn" onclick="showSection('about')">About Us</button></li>
+          <div class="logo -center allign">
+            <span class="logo-text">Zimmah</span>
+            </div>
+          <li><button class="nav-btn" href="#about" onclick="showSection('services')">Our Services</button></li>
+          <li><button class="nav-btn" onclick="showSection('support')">Get Support</button></li>
+          <li><button class="nav-btn" onclick="showSection('resources')">Resources</button></li>
+          <li><button class="nav-btn" onclick="showSection('contact')">Contact Us</button></li>
+        </ul>
+      </nav>
+      
+    
+  </header>
+
+  <!--explanation on diplay  now available -->
+  <main class="explanation-sections">
+    
+    <section id="home" class="info-section">
+      <div class="card1">
+        
+         <h1>Welcome to Zimmah</h1>
+         <h2>Your Guide to Responsible Betting</h2>
+         <p>We promote safe and informed betting practices while offering guidance, education, and support for those who need it.</p>
+         <button>get started</button>
+      </div>
+    </section>
+
+    <section id="about" class="info-section"> 
+      <div class =cards-row>
+      <div class="card">
+      <h1>About Us</h1>
+       <h2>Who We Are</h2>
+        <p>Zimmah is a platform dedicated to promoting responsible betting practices and providing resources for individuals seeking help with gambling-related issues.</p>
+     </div>
+      <div class="card3">
+        <p>Zimmah is dedicated to spreading awareness about betting risks, helping individuals make responsible choices, and connecting them with expert resources.</p>
+        <button>learn more</button>
+      </div>
+      </div>
+    </section>
+
+    <section id="services" class="info-section">
+  <h1>Our Services</h1>
+  <h2>Betting Education</h2>
+  <p>We offer comprehensive resources to help you understand the world of betting, including its risks and responsible practices.</p>
+  <p>Learn about different betting styles, their risks, and strategies for maintaining control.</p>
+  
+  <div class="services-cards-row">
+  <div class="cardx">
+    <h1>Financial Management</h1>
+    <p>Access tools and resources to manage your betting finances effectively.</p>
+    <button>Manage Finances</button>
+  </div>
+  <div class="card4">
+    <h1>Risk Assessment</h1>
+    <p>Identify betting habits and patterns to ensure safe and responsible engagement.</p>
+    <button>Get Services</button>
+  </div>
+</div>
+  <div class="cardy">
+    <h1>one on one doings</h1>
+    <p>Connect with our experts for personalized guidance and support.</p>
+    <button>more</button>
+  </div>
+  <section id="testimonials" class="info-section">
+  <h2>Testimonials</h2>
+  <div class="testimonial-carousel">
+    <button class="arrow left-arrow" onclick="showPrevTestimonial()">&#8592;</button>
+    <div class="testimonial-cards">
+      <div class="cardg testimonial-card active">
+        <p>"Zimmah helped me understand responsible betting. Highly recommended!"</p>
+        <h4>- Alex M.</h4>
+      </div>
+      <div class="cardf testimonial-card">
+        <p>"The support team is amazing and always ready to help."</p>
+        <h4>- Brenda K.</h4>
+      </div>
+      <div class="carde testimonial-card">
+        <p>"I found great resources for financial management here."</p>
+        <h4>- Charles O.</h4>
+      </div>
+      <div class="cardh testimonial-card">
+        <p>"Their risk assessment tools are very insightful."</p>
+        <h4>- Diana S.</h4>
+      </div>
+      <div class="cardk testimonial-card">
+        <p>"One-on-one guidance made a real difference for me."</p>
+        <h4>- Eric T.</h4>
+      </div>
+    </div>
+    <button class="arrow right-arrow" onclick="showNextTestimonial()">&#8594;</button>
+  </div>
+</section>
+
+  <!-- Partners Section -->
+  <section id="partners">
+    <h2>Our Partners</h2>
+    <p>We collaborate with trusted organizations to promote responsible betting.</p>
+    <div class="partners-logos">
+      <a href="#" target="_blank"><img src="partner1-logo.png" alt="Partner 1"></a>
+      <a href="#" target="_blank"><img src="partner2-logo.png" alt="Partner 2"></a>
+      <a href="#" target="_blank"><img src="partner3-logo.png" alt="Partner 3"></a>
+      <a href="#" target="_blank"><img src="partner4-logo.png" alt="Partner 4"></a>
+      <a href="#" target="_blank"><img src="partner5-logo.png" alt="Partner 5"></a>
+      <a href="#" target="_blank"><img src="partner6-logo.png" alt="Partner 6"></a>
+    </div>
+  </section>
+</section>
+
+    <section id="support" class="info-section">
+  <h1>Get Support</h1>
+  <h2>Therapists & Counselors</h2>
+  <p>We connect you with certified professionals specializing in gambling-related challenges and mental well-being.</p>
+  <div class="card5">
+    <h1>Community Support</h1>
+    <p>Join a community of individuals who share insights and experiences in overcoming betting challenges.</p>
+    <button>Join Community</button>
+  </div>
+<h1>Frequently asked question</h1>
+  <h2> get answers of most quetions we in tuch to</h2>
+  <div class="image"> 
+
+  </div>
+  <div class="faq-list">
+    <div class="faq-card">
+      <div class="faq-question">
+        <span class="faq-q">How can I get help for gambling addiction?</span>
+        <button class="faq-toggle" onclick="toggleFaq(this)">+</button>
+      </div>
+      <div class="faq-answer">
+        <span class="faq-a">You can reach out to our certified therapists and counselors through the 'Find Help' button above or join our community for peer support.</span>
+      </div>
+    </div>
+    <div class="faq-card">
+      <div class="faq-question">
+        <span class="faq-q">Is my information confidential?</span>
+        <button class="faq-toggle" onclick="toggleFaq(this)">+</button>
+      </div>
+      <div class="faq-answer">
+        <span class="faq-a">Yes, all your information is kept strictly confidential and is only shared with your consent.</span>
+      </div>
+    </div>
+    <div class="faq-card">
+      <div class="faq-question">
+        <span class="faq-q">What resources are available for financial management?</span>
+        <button class="faq-toggle" onclick="toggleFaq(this)">+</button>
+      </div>
+      <div class="faq-answer">
+        <span class="faq-a">We offer tools, guides, and expert advice to help you manage your betting finances responsibly.</span>
+      </div>
+    </div>
+    <div class="faq-card">
+      <div class="faq-question">
+        <span class="faq-q">How do I join the community?</span>
+        <button class="faq-toggle" onclick="toggleFaq(this)">+</button>
+      </div>
+      <div class="faq-answer">
+        <span class="faq-a">Click the 'Join Community' button above to become part of our support group and share experiences.</span>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+
+    <section id="resources" class="info-section">
+  <h2>Helpful Resources</h2>
+  <h3>Educational Articles</h3>
+  <p>Read insightful guides on betting responsibility and financial management.</p>
+  <div class="resources-cards-row">
+    <div class="card6">
+      <h3>Self-Help Tools</h3>
+      <p>Access checklists and tracking systems to monitor gambling habits effectively.</p>
+      <button>Access Tools</button>
+    </div>
+    <div class="card10">
+      <h3>Expert Advice</h3>
+      <p>Get tips and strategies from professionals to maintain healthy betting habits.</p>
+      <button>Read Advice</button>
+    </div>
+    <div class="card11">
+      <h3>Community Stories</h3>
+      <p>Learn from real experiences shared by our community members.</p>
+      <button>Read Stories</button>
+    </div>
+  </div>
+</section>
+
+    <section id="contact" class="info-section">
+  <h2>Contact Us</h2>
+  <p class="contact-support-text">
+    We are here to support you whether you have a question or not.
+  </p>
+  <div class="contact-cards-row">
+    <!-- Contact Info Card -->
+    <div class="card7 contact-info-card">
+      <h3>Contact Information</h3>
+      <p>
+        <strong>Email:</strong> <a href="mailto:zimmahbetting@gmail.com">zimmahbetting@gmail.com</a><br>
+        <strong>Phone:</strong> <a href="tel:+254720899678">+2547-20 899 678</a><br>
+        <strong>Address:</strong> Nairobi, Kenya
+      </p>
+      <div class="contact-socials">
+        <a href="https://facebook.com" target="_blank" title="Facebook">
+          <img src="facebook-logo.png" alt="Facebook" />
+        </a>
+        <a href="https://twitter.com" target="_blank" title="Twitter">
+          <img src="twitter-logo.png" alt="Twitter" />
+        </a>
+        <a href="https://instagram.com" target="_blank" title="Instagram">
+          <img src="instagram-logo.png" alt="Instagram" />
+        </a>
+      </div>
+    </div>
+    <!-- Contact Form Card -->
+    <div class="card7 contact-form-card">
+      <h3>Send Us a Message</h3>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent!');">
+        <label for="contact-email">Your Email</label>
+        <input type="email" id="contact-email" name="contact-email" required placeholder="Enter your email" />
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="contact-message" rows="4" required placeholder="Type your message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-content">
+    <div class="footer-cards-row">
+      <div class="card8">
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="mailto:zimmahbetting@gmail.com" target="_blank"><img src="email-logo.png" alt="gmail"></a>
+        <p>send us Message</p>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-reserved">@2023 zimmah reserved</div>
+      </div>
+      <div class="card9">
+        <p>
+          zimmah bettings all rights preserved.<br>
+          Find support and resources to help you make informed decisions about betting. Our mission is to create a safer betting environment for everyone.
+        </p>
+      </div>
+    </div>
+   
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

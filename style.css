@@ -1,0 +1,730 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Header container */
+header {
+  background-color: #ff6600; /* Vibrant header color */
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+/* Navigation List */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation Buttons */
+.nav-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #e65c00;
+  border-radius: 5px;
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.logo-text {
+  font-style: italic;
+  color: white;
+  font-size: large;
+}
+
+#home  {
+ 
+  .card1{
+    background-image: url('gallery/nayan-bhalotia-m3RLauf7XL0-unsplash.jpg');
+     background-position: center;
+    padding: 30px;
+     max-width: 350px;
+    border-radius: 20px;
+   margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    /* Style buttons inside .card */
+    button {
+      background-color: blue;
+      align-items: center;
+      padding: 10px;
+      border-radius: 20px;
+    }
+  }
+  
+}
+/* About Section - Card on Right, Text on Left */
+#about {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 0;
+}
+
+#about .card {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.07);
+  padding: 14px;
+}
+
+#about .card h1 {
+  font-weight: 40;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+#about .card h2 {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+#about .card p {
+  color: #333;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+#about .card3 {
+  flex: 1;
+  background-image: url(gallery/cleyton-ewerton-LjAAUZadNrg-unsplash.jpg);
+  background-position: right;
+  background-size: cover;
+  padding: 24px 10px;
+  border-radius: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 250px;
+  max-width: 350px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  color: #fff;
+  justify-content: center;
+}
+
+#about .card3 p {
+  background: rgba(0,0,0,0.3);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+#about .card3 button {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: auto;
+  font-size: 16px;
+}
+   
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  gap: 30px;
+}
+
+#services > h1,
+#services > h2,
+#services > p {
+  text-align: center;
+  width: 100%;
+}
+
+#services .services-cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+#services .services-cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+/* Ensure cardx is on the left and card4 is on the right */
+#services .services-cards-row {
+  flex-direction: row;
+}
+
+#services .cardx {
+  order: 1;
+  background-color: #1d9bf0;
+}
+
+#services .card4 {
+  order: 2;
+  background-color: antiquewhite;
+}
+.cardy {
+  margin-top: 30px;
+  background: #705f5f;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.07);
+  padding: 24px 18px;
+  max-width: 350px;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Optional: Button styling for consistency */
+.card4 button, .cardx button, .cardy button {
+  background-color: #1d9bf0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 16px;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+.card4 button:hover, .cardx button:hover, .cardy button:hover {
+  background-color: #1273b9;
+}
+/* Testimonials Carousel */
+#testimonials {
+  margin: 40px auto;
+  max-width: 700px;
+  text-align: center;
+}
+.testimonial-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.arrow {
+  background: #1d9bf0;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.arrow:hover {
+  background: #1273b9;
+}
+.testimonial-cards {
+  position: relative;
+  width: 350px;
+  min-height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-card {
+display: inline-flex;
+  background:  yellowgreen;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.07);
+  padding: 24px 18px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: opacity 0.4s;
+}
+.testimonial-card.active {
+display: inline-flex;
+  position: relative;
+  opacity: 1;
+  z-index: 2;
+}
+  
+  /* Support Section Styling */
+#support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  background: #f8f9fa;
+}
+
+#support > h1,
+#support > h2,
+#support > p,
+#support > button {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 12px auto;
+}
+
+#support > button {
+  margin-bottom: 32px;
+}
+
+#support .card5 {
+  margin-top: 30px;
+  background-image:url(gallery/erik-mclean-uraAsBooxOo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.12);
+  padding: 32px 20px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: brightness(0.7);
+}
+
+#support .card5 h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #fff;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+}
+
+
+#support .card5 p {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #fff;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+}
+
+#support .card5 button {
+  background-color: #1d9bf0;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+#support .card5 button:hover {
+  background-color: #1273b9;}
+  /* FAQ Section Styles - Question Left, Answer Right */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: 32px auto 0 auto;
+  max-width: 700px;
+  width: 100%;
+}
+
+.faq-card {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 18px 16px;
+  transition: box-shadow 0.2s;
+  justify-content: space-between;
+  min-height: 60px;
+}
+
+.faq-question {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1 1 40%;
+  min-width: 0;
+}
+
+.faq-q {
+  font-weight: 500;
+  font-size: 17px;
+  color: #1d9bf0;
+  flex: 1;
+  text-align: left;
+  margin-right: 18px;
+  word-break: break-word;
+}
+
+.faq-toggle {
+  background: #1d9bf0;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+
+.faq-toggle.active {
+  background: #1273b9;
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  display: none;
+  flex: 1 1 60%;
+  margin-left: 32px;
+  align-self: center;
+  color: #333;
+  font-size: 16px;
+  text-align: right;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.faq-card.open .faq-answer {
+  display: flex;
+}
+  /* Resources Section Cards Layout */
+#resources > h2,
+#resources > h3,
+#resources > p {
+  text-align: center;
+  width: 100%;
+}
+
+.resources-cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.card6, .card10, .card11 {
+  flex: 1 1 250px;
+  max-width: 320px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.07);
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card6 {
+  order: 2; /* Center */
+  background-color: #da3e3e33;
+}
+.card10 {
+  order: 3; /* Right */
+  background-color: #e6e6fa;
+}
+.card11 {
+  order: 1; /* Left */
+  background-color: #b4c0b333;
+}
+
+.card6 button, .card10 button, .card11 button {
+  background-color: #1d9bf0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 16px;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+.card6 button:hover, .card10 button:hover, .card11 button:hover {
+  background-color: #1273b9;
+}
+  /* Contact Section Styles */
+#contact > h2,
+.contact-support-text {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 18px;
+  font-size: 22px;
+  color: #1d9bf0;
+  font-weight: 500;
+}
+
+
+
+.contact-cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 0;
+  gap: 40px;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.card7 {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.07);
+  padding: 28px 22px;
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-info-card h3,
+.contact-form-card h3 {
+  margin-bottom: 14px;
+  color: #1d9bf0;
+}
+
+.contact-info-card p {
+  font-size: 16px;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+.contact-socials {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contact-socials img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+
+.contact-socials img:hover {
+  transform: scale(1.15);
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form label {
+  text-align: left;
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #1d9bf0;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 8px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #1273b9;
+}
+
+/* Responsive for mobile */
+@media (max-width: 800px) {
+  .contact-cards-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+}
+/* Footer Layout */
+.footer-content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin-top: 40px;
+  background: transparent;
+  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1100px;
+  margin-bottom: 18px;
+}
+
+.card8, .card9 {
+ 
+  border-radius: 32px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.07);
+  padding: 34px 28px;
+  max-width: 400px;
+  width: 100%;
+ max-height: 960px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card8 {
+  align-items: flex-start;
+  text-align: left;
+  background-color: antiquewhite;
+}
+
+.card8 .footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.card8 .footer-nav li {
+  margin-bottom: 6px;
+}
+
+.card8 .footer-nav a {
+  color: #1d9bf0;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.card8 .footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.card8 img {
+  width: 28px;
+  margin: 10px 0 5px 0;
+}
+
+.card8 .social-icons {
+  display: flex;
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.card8 .footer-reserved {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.card9 {
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+  justify-content: center;
+  background-image:url(gallery/aidan-howe-xrR-Kr2zppo-unsplash.jpg) ;
+}
+
+.footer-logo {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-style: italic;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-cards-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .card8, .card9 {
+    max-width: 95%;
+  }
+}
+
+
